@@ -1,7 +1,8 @@
 {
-  "network": "nitro-dev",
-  "contract_address": "0xda52b25ddB0e3B9CC393b0690Ac62245Ac772527",
-  "transaction_hash": "0x476a300840e9b47e615d9e006bb84c13b9b9da2cddc829856829c2ab9ed816ac",
-  "rpc_url": "http://127.0.0.1:8547",
-  "deployment_time": "2025-07-31T05:17:42Z"
+  "network": "arbitrum-sepolia",
+  "deployer_address": "0x9f370C970f95F7aEf09E14E061CB74f0657EAD8E",
+  "contract_address": "0x06F67200413a49f3Df9178AE4E8FDddB4Ae297C2",
+  "transaction_hash": "0xea431a642da47f80081bbd26b03fd8c42bfa77d5f36a9a901cfab220e97a1bfc",
+  "rpc_url": "https://sepolia-rollup.arbitrum.io/rpc",
+  "deployment_time": "2025-08-14T07:03:18Z"
 }

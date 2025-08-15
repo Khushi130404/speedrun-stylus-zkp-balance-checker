@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import { groth16 } from "snarkjs";
 
+
 export default function BalanceChecker() {
   const [balance, setBalance] = useState("");
   const [threshold, setThreshold] = useState("");
@@ -15,7 +16,7 @@ export default function BalanceChecker() {
   const [error, setError] = useState<string | null>(null);
 
   // Replace with your deployed contract address on Arbitrum Stylus
-  const CONTRACT_ADDRESS = "0xda52b25ddB0e3B9CC393b0690Ac62245Ac772527";
+  const CONTRACT_ADDRESS = "0x06F67200413a49f3Df9178AE4E8FDddB4Ae297C2";
   const CONTRACT_ABI = [
     {
       inputs: [
